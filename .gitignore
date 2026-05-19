@@ -5,3 +5,6 @@ venv/
 *.pyc
 *.egg-info/
 uv.lock
+
+# Solution files - grading only, not for candidates
+_solution/

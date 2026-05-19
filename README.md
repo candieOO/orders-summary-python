@@ -50,26 +50,22 @@ curl -LsSf https://astral.sh/uv/install.sh | sh  # Mac/Linux
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"  # Windows
 ```
 
-**Clone and run tests**
+**Clone and implement**
 
 ```bash
 git clone https://github.com/JayDi11a/orders-summary-python.git
 cd orders-summary-python
-uv run pytest
 ```
 
 ## Important Notes
 
-- Tests may fail initially — this is expected  
-- Your task is to implement the function so that all tests pass  
+- Your task is to implement the function according to the requirements
 - You should only modify `report.py`  
 
 ## Do Not
 
-- Do not modify test files  
-- Do not move or copy files into the `tests/` directory  
-- Do not rename files or change the project structure  
-- Do not add configuration files (for example, `conftest.py`) to fix imports  
+- Do not rename files or change the project structure
+- Do not add additional files
 
 If you are editing anything outside `report.py`, you are likely going in the wrong direction.
 
@@ -79,15 +75,5 @@ If you are editing anything outside `report.py`, you are likely going in the wro
     │
     ├── report.py
     ├── pyproject.toml
-    ├── README.md
-    │
-    └── tests
-        ├── fixtures.json
-        └── test_report.py
-
-## Data
-
-Test data is located in:
-
-    tests/fixtures.json
+    └── README.md
 
